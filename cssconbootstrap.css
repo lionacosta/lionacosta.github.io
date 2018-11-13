@@ -220,6 +220,10 @@ a {
 	margin-left: 275px;
 }
 
+.nombremo{
+	font-size: 25px;
+}
+
 @-moz-document url-prefix(){
 	.apellidom{
 		display: block;
