@@ -1,0 +1,105 @@
+﻿<!DOCTYPE HTML>
+
+	<html>
+
+		<head>
+
+			<meta charset = "utf-8">
+
+
+			<title> SSC Napoli </title>
+			<meta name="viewport" content="width=device-width, initial-scale=no">
+			
+			<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+  			<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+			
+			<!-- Latest compiled and minified CSS -->
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+			<!-- Optional theme -->
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+			<!-- Latest compiled and minified JavaScript -->
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+			<link rel ="stylesheet" type = "text/css" href = "cssconbootstrap.css">
+			<link rel ="stylesheet" type = "text/css" href = "fonts.css">
+			<link rel="shortcut icon" href="Napoli.png"> 		 		
+		</head>
+		<body>
+	
+		<nav class="navbar navbar-default navbar-fixed-top">
+	      	<div class="container">
+	        	<div class="navbar-header">
+		          	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+		            	<span class="sr-only">Toggle navigation</span>
+		            	<span class="icon-bar"></span>
+		            	<span class="icon-bar"></span>
+		            	<span class="icon-bar"></span>
+		          	</button>
+		          	<a class="navbar-brand" href="pagina1conbootstrap.html"> SSC NAPOLI</a>
+		        </div>
+		        <div id="navbar" class="navbar-collapse collapse">
+		          	<ul class="nav navbar-nav">
+			            <li class="active"><a href="pagina1conbootstrap.html">INICIO</a></li>
+			            <li class="dropdown">
+			              	<a href="pagina1conbootstrap.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">HISTORICO <span class="caret"></span></a>
+			              	<ul class="dropdown-menu">
+			                	<li><a href="leyendas.html">LEYENDAS</a></li>
+			                	<li><a href="palmares.html">PALMARÉS</a></li>
+		             		</ul>
+		            	</li>
+		            	<li class="dropdown">
+		             	<a href="pagina1conbootstrap.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CLUB <span class="caret"></span></a>
+		              	<ul class="dropdown-menu">
+			                <li><a href="plantilla.html">PLANTEL</a></li>
+			                <li><a href="camisetas.html">CAMISETAS</a></li>
+		              	</ul>
+		            	</li>
+		            	<li><a href="liga.html">LIGA</a></li>
+		          	</ul>
+		        </div><!--/.nav-collapse -->
+	      	</div>
+    	</nav>
+    	
+		<div class="social">
+			<ul>
+				<li><a href="https://www.facebook.com/SSCNapoli/" target="_blank" class="icon-facebook"></a></li>
+				<li><a href="https://twitter.com/sscnapoliES" target="_blank" class="icon-twitter"></a></li>
+				<li><a href="https://www.instagram.com/officialsscnapoli" target="_blank" class="icon-instagram"></a></li>
+				<li><a href="https://www.youtube.com/user/SSCNapoli" class="icon-youtube"></a></li>
+			</ul>
+		</div>
+			
+		<div class="carousel" style="margin-top: 60px">
+			<img src="napoli1.jpg" alt="primero">
+			<img src="napoli3.jpg" alt="segundo">			
+			<img src="napoli2.jpg" alt="tercero">
+			<img src="slider4.jpg" alt="cuarto">
+			<img src="slider5.jpg" alt="quinto">
+		</div>
+
+		<form class="form" action="../form-result.php" target="_blank">
+			<p>
+				Nombre:<br>
+				<input type="text" name="nombrecompleto">
+			</p>
+			<p>
+				Deja un mensaje:<br>
+				<textarea name="mensaje"></textarea>
+			</p>
+			<input href="mailto:leonacosta41@gmail.com" type="submit" value="Enviar la información">
+		</form>
+				    
+		<script type="text/javascript" src="slick/slick.min.js"></script>
+				
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$('.carousel').slick();
+		 	});
+		</script>	
+	</body>
+</html>

@@ -1,0 +1,231 @@
+body{   
+	background: url("background3.jpg") no-repeat fixed center;
+    background-size: cover;
+    margin-top: 0;
+    }
+
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+.carousel {
+	display: block;
+	margin: 20px auto;
+	width:600px;
+	height:400px;
+}
+
+.container {
+	display: block;
+	margin: 0 auto;
+}
+
+.social {
+	position: fixed;
+	left: 0;
+	top: 200px;
+	z-index: 2000;
+}
+ 
+.social ul {
+	list-style: none;
+}
+ 
+.social ul li a {
+	display: inline-block;
+	color:#fff;
+	background: #000;
+	padding: 10px 15px;
+	text-decoration: none;
+	-webkit-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition:all 500ms ease;
+}
+ 
+.social ul li .icon-facebook {background:#3b5998;}
+.social ul li .icon-twitter {background: #00abf0;}
+.social ul li .icon-instagram {background: #CF5EEB;}
+.social ul li .icon-youtube {background: #D12734;}
+ 
+.social ul li a:hover {
+	background: #000;
+	padding: 10px 30px;
+}
+
+.nombres{
+	margin-top: 10px;
+	font-family: 'Muli', sans-serif;
+	color: white;
+	background-color: rgb(6, 90, 175);
+	font-size: 45px;
+	text-align: center;
+}
+
+.leyendas {
+	display: block;
+	margin-top: 51px;
+	padding: auto auto;
+}
+
+.leyendas div img {
+	display: block;
+	padding: 0px 0px;
+	margin: auto auto;
+}
+
+.leyendas div strong {
+	color: white;
+	background-color: rgb(6, 90, 175);
+	font-family: 'Muli', sans-serif;
+	font-size: 45px;
+}
+
+
+.copas{
+	margin-top: 10px;
+	font-family: 'Muli', sans-serif;
+	color: white;
+	background-color: rgb(6, 90, 175);
+	font-size: 45px;
+}
+
+.palmares {
+	display: block;
+	margin-top: 45px;
+	padding: 0px 0px;
+}
+
+.palmares div img {
+	margin-top: 5px;
+	margin: center;
+}
+
+.palmares div strong {
+	text-align: center;
+	color: white;
+	background-color: rgb(6, 90, 175);
+	font-family: 'Muli', sans-serif;
+	font-size: 30px;
+}
+
+.team{
+	margin-top: 51px;
+}
+
+.team div div a img{
+	display: block;
+	width: 254px;
+}
+
+.team div div div a img{
+	display: block;
+	width: 261px;
+}
+
+.num{
+	display: table-cell;
+	font-size: 2.9em;
+	padding: 10px 0;
+	text-align: center;
+	width: 65px;
+	background: #0384c6;
+	color: #fff;
+	font-family: 'ProximaNova-bold';
+	font-weight: normal !important;
+	letter-spacing: -1px;
+	float: left;
+}
+
+.num2{
+	display: block;
+	font-size: 2.9em;
+	padding: 10px 0;
+	text-align: center;
+	width: 65px;
+	background: #0384c6;
+	color: #fff;
+	font-family: 'ProximaNova-bold';
+	font-weight: normal !important;
+	letter-spacing: -1px;
+	float: left;
+	height: 77px;
+}
+
+.nombre, .apellido, .apellidom, .nombrem, .apellidomo, .nombremo{
+	color: white;
+	background: rgb(6, 90, 175);
+	margin: 0;
+	font-family: 'ProximaNova-Semibold';
+}
+
+.apellido{
+	font-size: 30px;
+	display: block;
+}
+
+.nombre{
+	font-size: 25px;
+}
+
+.tipo{
+	color: white;
+	background: rgb(6, 90, 230); 
+	display: block;
+	font-size: 35px;
+	margin: 10px 0;
+	text-align: center;
+}
+
+a {
+	color: #337ab7;
+	text-decoration: none;
+	background-color: transparent;	
+	box-sizing: border-box;
+}
+
+.apellidom{
+	font-size: 29.5px;
+	display: block;	
+}
+
+.nombrem{
+	font-size: 21px;
+}
+
+.apellidomo{
+	font-size: 34px;
+	display: block;
+}
+
+.col-xs-3{
+	margin: 15px;
+}
+
+.form{
+	text-align: center;
+	color: white;
+}
+
+.form textarea{
+	color: black;
+}
+
+.form input{
+	color: black;
+}
+
+.strong{
+	margin-right: 275px;
+	margin-left: 275px;
+}
+
+@-moz-document url-prefix(){
+	.apellidom{
+		display: block;
+		font-size: 28.49px;
+	}
+	.nombremo{
+		font-size: 27px;
+	}
+}
